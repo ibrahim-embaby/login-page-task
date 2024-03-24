@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.login {
+  display: flex;
+  height: 100vh;
+  font-family: Poppins;
+}
+
+.left-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+}
+.login-desc {
+  color: #525252;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  align-items: center;
+}
+
+.username-input-wrapper,
+.password-input-wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: #f0edffcc;
+  padding: 0 18px;
+  border-radius: 16px;
+  height: 52px;
+  width: 344px;
+}
+
+.username-input-wrapper {
+  margin-bottom: 18px;
+}
+
+.username-input::placeholder,
+.password-input::placeholder {
+  color: #1c1c1c;
+}
+
+.username-input,
+.password-input {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-size: 12px;
+}
+
+.login-btn {
+  width: 124px;
+  height: 52px;
+  border-radius: 16px;
+  background: linear-gradient(99.78deg, #9181f4 -5.85%, #5038ed 109.55%);
+  color: white;
+  border: none;
+  box-shadow: 0px 8px 21px 0px #00000029;
+  margin-top: 24px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-bottom: 24px;
+}
+
+.login-options-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-options-desc {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #1c1c1c;
+  background-color: #fff;
+  padding: 0 5px;
+}
+
+.login-options-desc-span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #525252;
+}
+
+.subtract {
+  position: absolute;
+  top: 50%;
+  width: 364px;
+  z-index: -1;
+  background-color: #f0edff;
+  height: 1px;
+}
+
+.google-button,
+.facebook-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #f0edff;
+  padding: 11px 0;
+  width: 364px;
+  justify-content: center;
+  border-radius: 16px;
+  font-size: 12px;
+  color: #1c1c1c;
+}
+
+.google-button {
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+
+.google-icon,
+.facebook-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.google-span,
+.facebook-span {
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.right-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(217.64deg, #9181f4 -5.84%, #5038ed 106.73%);
+  position: relative;
+  justify-content: center;
+}
+
+.decoration {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.06;
+  background-image: url("./decoration.png");
+}
+
+.box {
+  width: 412px;
+  height: 524px;
+  border-radius: 46px;
+  border: 1px solid #ffffff85;
+  background-color: #ffffff36;
+  position: relative;
+}
+
+.box-desc {
+  width: 184px;
+  height: 230px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: left;
+  color: #ffffff;
+  position: absolute;
+  top: 26px;
+  left: 31px;
+}
+
+.man {
+  position: absolute;
+  height: 90%;
+  right: -100px;
+  bottom: 0;
+}
+
+.thunderbolt {
+  position: absolute;
+  background-color: #ffffff;
+  bottom: 98px;
+  right: 364px;
+  padding: 18px;
+  border-radius: 50%;
+}
+
+.thunderbolt-img {
+  width: 42px;
+  height: 42px;
+  vertical-align: middle;
+}
